@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+.section{
+    margin-top: 80px;
+}
+.bc{
+    padding: 5px;
+    font-size: 16px;
+    border-bottom: 1px solid #d7d7d7;
+}
+.detail{
+    text-align: center;
+    font-size: 20px;
+    color: #006ec3;
+}
+.detail .title{
+    color: #333;
+    font-weight: 700;
+    padding: 20px;
+}
+.detail .line{
+    width: 50px;
+    height: 5px;
+    background-color: #006ec3;
+    position: absolute;
+    left: 50%;
+    margin-left: -37px;
+    margin-top: 5px;
+}
+.detail div{
+    margin-top: 10px;
+}
+.detail .intro-detail,.detail p.customer-intro{
+    text-align: left;
+    padding: 20px;
+    color: #333;
+    font-size: 16px;
+}
+.detail ul,.detail ol{
+    padding-left: 32px;
+}
+.detail ul li{
+    list-style: disc;
+    margin-top: 20px;
+}
+.detail ol li{
+    list-style: decimal;
+    margin-top: 20px;
+}
+.line + div[class='row']{
+    margin: 40px 0;
+}
+.card{
+    line-height: 50px;
+    background-color: #fff;
+    text-align: center;
+    /* padding: 20px; */
+    width: 300px;
+    height: 100px;
+    /* margin: 0 45px; */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    color: #006ec3;
+    cursor: pointer;
+    /* margin-top: 20px; */
+}
+.card:hover{
+    transform: translate(0,-3px);
+    box-shadow: 0  0 30px;
+}

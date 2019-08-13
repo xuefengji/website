@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+/*banner图*/
+.banner{
+    width: 100%;
+    height: 400px;
+    color: #fff;
+    font-size: 45px;
+    position: relative;
+    /*background-color: #1b6d85;*/
+}
+.banner h2 {
+    margin-top: 200px;
+    line-height: 50px;
+}
+.monitbanner{
+    background: url("../images/solution/banner1.jpg") center center no-repeat;
+}
+.ddosbanner{
+    background: url("../images/solution/banner2.png") center center no-repeat;
+}
+.appbanner{
+    background: url("../images/solution/banner3.jpg") center center no-repeat;
+}
+.inner {
+    padding-bottom: 40px;
+}
+.inner section{
+    margin-top: 60px;
+}
+.inner div:nth-child(n){
+    margin-top: 20px;
+    /* text-align: center; */
+}
+.title{
+    border-left: 3px solid #006ec3;
+
+}
+.title + img{
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.title h2{
+    font-size: 30px;
+    padding-left: 10px;
+    text-align: left;
+}
+.title ~ p{
+    padding-left: 20px;
+    line-height: 40px;
+}
+.right{
+    padding: 10px  0 20px;
+}
+.right h2{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.card{
+    line-height: 50px;
+    background-color: #fff;
+    text-align: center;
+    /* padding: 20px; */
+    width: 80%;
+    /*margin: 0 45px;*/
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    color: #006ec3;
+    cursor: pointer;
+}
+.card:hover{
+    transform: translate(0,-3px);
+    box-shadow: 0  0 30px;
+}
+@media (max-width: 767px) {
+    .right{
+        text-align: center;
+        padding: 10px   20px;
+    }
+}

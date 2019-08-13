@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+.banner{
+    height: 500px;
+    background-color: #2e6da4;
+}
+.hibitom{
+    background: url("../images/hibitom/banner.jpg")center center  no-repeat;
+}
+.iProbe{
+    background: url("../images/iProbe/banner.jpg") center center no-repeat;
+}
+.dcheck{
+     background: url("../images/dcheck/banner.jpg") center center no-repeat;
+ }
+.namd{
+    background: url("../images/namd/banner.jpg") center center no-repeat;
+}
+.banner .text{
+    text-align: left;
+    font-size: 40px;
+    color: #fff;
+    margin-top: 80px;
+    line-height: 48px;
+}
+.banner .text:nth-child(1){
+    margin-top: 196px;
+    font-size: 80px;
+}
+
+.pro-intro,.pro-func,.pro-adv{
+    padding: 10px;
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 40px;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: 600;
+    color: #3498DB;
+    padding: 40px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.func-intro{
+
+    padding-top: 40px;
+}
+.func-intro .func-title{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37px;
+}
+.pro-func div[class='row']{
+    margin-top: 40px;
+}
+.pro-adv .cicle{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 1px solid #f0f0f0;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.cicle + div{
+    font-weight: 600;
+}
+.pro-adv .desc{
+    font-size: 14px;
+}
+.pro-adv img + div{
+    font-size: 18px;
+    font-weight: 600;
+}
+.pro-adv div[class='row'] > div {
+    margin-top: 20px;
+}
+.about {
+    text-align: center;
+}

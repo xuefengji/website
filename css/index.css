@@ -1,0 +1,298 @@
+@charset "UTF-8";
+
+/*轮播图样式*/
+.banner {
+    width: 100%;
+    /*margin-top: 60px;*/
+    height: 720px;
+    /*background-color: #85C1E9;*/
+    position: relative;
+    overflow: hidden;
+
+}
+
+.swiper-container,
+.swiper-wrapper,
+.swiper-slide,
+.swiper-slide {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-pagination-custom {
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+}
+
+.swiper-pagination-customs {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #fff;
+    opacity: .3;
+    margin: 0 5px;
+}
+
+.swiper-pagination-customs-active {
+    opacity: 1;
+    background-color: #333;
+}
+.bgc1{
+    background: url("../images/index/slider1.jpg") center center no-repeat;
+    background-size: cover;
+}
+.bgc1 h2{
+    font-size: 45px;
+}
+.bgc2{
+    background: url("../images/index/slider2.jpg") center center no-repeat;
+    background-size: cover;
+}
+.bgc3{
+    background: url("../images/index/slider3.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+.inner{
+    padding-top: 200px;
+    text-align: left;
+    color: #fff;
+    font-size: 22px;
+}
+.bgc1 .inner,.bgc3 .inner{
+    text-align: center;
+}
+
+.inner div,.inner p{
+    margin-top: 20px;
+}
+.inner div:first-child{
+     line-height: 60px;
+     /* line-height: 20px; */
+     font-size: 45px;
+     margin-bottom: 35px;
+}
+.inner div:nth-child(2){
+    margin-top: 10px;
+    line-height: 32px;
+}
+
+.text-center h2{
+    font-size: 30px;
+}
+
+.text-center{
+    text-align: center;
+    padding: 10px 10px;
+    margin: 60px 10px;
+}
+
+/*产品部分样式*/
+.product {
+    width: 100%;
+    height: 200px;
+    background-color: #e8f8f5;
+    /* position: relative; */
+}
+
+.product .card {
+    /* padding: 10px 5px; */
+    position: relative;
+    top: 55px;
+    border-radius: 7px;
+    box-shadow: 1px 1px 12px rgba(0,0,0,.1);
+    width: 280px;
+    /* height: 135px; */
+    background-color: #fff;
+    margin-left: 10px;
+    padding: 60px 10px;
+}
+.product .card:hover{
+    /*transform: translate(0, -1px);*/
+    -webkit-transform: translate(0, -2px);
+    -moz-transform: translate(0, -2px);
+    -o-transform: translate(0, -2px);
+    -ms-transform: translate(0, -2px);
+    box-shadow: 0  0 30px #85C1E9;
+}
+.card .box{
+    text-align: center;
+    color: #0054a6;
+    font-weight: 700;
+    /* padding: 50px 8px; */
+}
+
+.product-banner{
+    height: 550px;
+    padding-top: 65px;
+    /*background-color: #f7f7f7;*/
+    text-align: center;
+    vertical-align: middle;
+    font-size: 15px;
+}
+
+.banner-inner{
+
+    display: none;
+}
+.current-banner{
+    display: block;
+}
+@media (max-width: 1199px) {
+    .product {
+        height: 881px;
+    }
+    .product .card{
+        width: 70%;
+        margin: 13px 57px;
+    }
+}
+/*优势部分*/
+
+.text-title{
+    text-align: center;
+    color: #fff;
+    /*background-color: #f7f7f7;*/
+}
+.text-title p {
+    color: #7d8189;
+    line-height: 25px;
+    /*padding: 0 5px;*/
+    font-size: 16px;
+    text-align: left;
+}
+
+.text-title h2{
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+    line-height: 18px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+@media (max-width: 991px) {
+    .text-title p{
+        text-align: center;
+    }
+    .advantage .card{
+        margin-bottom: 20px;
+    }
+}
+/*服务行业*/
+
+.center {
+    margin-left: 0;
+}
+.text-center .desc{
+    padding: 10px 20px;
+    font-family: 宋体;
+
+}
+.sol-box{
+    /*background-color: #333;*/
+    /*padding: 10px 10px;*/
+    text-align: center;
+    /* margin-right: 0; */
+    /*width: 200px;*/
+}
+.sol-box .text{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.solution{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    padding: 10px;
+}
+.bg1{
+    background-color: #006ec3;
+}
+.bg2{
+    background-color: #a94442;
+}
+.bg3{
+    background-color: #d58512;
+}
+
+.bg4{
+    background-color: #67b168;
+}
+
+.bg5{
+    background-color: #255625;
+}
+@media (max-width: 991px) {
+    .sol-box{
+        margin-top: 20px;
+        margin-left: 35px;
+    }
+}
+@media (max-width: 767px) {
+    .sol-box{
+        margin-top: 20px;
+        margin-left: -6px;
+    }
+}
+
+
+/*客户部分*/
+.part-bgc{
+    background-color: #f5f5f5;
+    margin-top: 20px;
+}
+.partner{
+    margin-top: 20px;
+    padding: 20px;
+}
+.part-bgc .content{
+    padding: 10px 0 0;
+}
+.content div:nth-child(n){
+    padding: 10px;
+}
+.content div:nth-child(1){
+    font-size: 25px;
+    color: #006ec3;
+    font-weight: 600;
+}
+.more {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.more a::after{
+    content: '>>>';
+}
+
+/*合作伙伴*/
+.customer{
+    /*height: 250px;*/
+    margin-bottom: 40px;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+}
+.cust-logo{
+    position: relative;
+    width: 13%;
+    margin: 20px 8px;
+    /* line-height: 60px; */
+    height: 76px;
+    /* border: 1px solid #777; */
+}
+.cust-logo img{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+}
+@media (max-width: 1261px) {
+    .customer{
+        margin-left: 11px;
+    }
+}

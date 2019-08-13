@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+.banner{
+    width: 100%;
+    height: 400px;
+    /*margin-top: 60px;*/
+    background-image: url("../images/about/banner1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bar {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #333;
+    font-size: 20px;
+}
+.bar a{
+    color: #fff;
+}
+/*关于我们*/
+.aboutus,.news,.join{
+    padding: 20px;
+}
+.aboutus .develop div:first-of-type{
+    margin: 0 auto;
+    text-align: center;
+}
+.aboutus div:nth-child(n),.news div:nth-child(n){
+    margin: 10px 0;
+}
+
+
+.aboutus h2{
+    padding: 20px;
+    text-align: center;
+    font-size: 35px;
+}
+.text{
+    text-align: center;
+    font-size: 15px;
+}
+.develop p{
+    /* font-size: 18px; */
+    margin-top: 10px;
+}
+
+
+/*新闻动态*/
+
+.new a{
+    color: #8f8f8f !important;
+}
+.news .desc{
+    padding: 23px;
+}
+.news .desc p{
+    margin-top: 20px;
+}
+@media (max-width: 767px) {
+    .news .desc{
+        font-size: 14px;
+    }
+}
+
+
+/*加入我们*/
+.join .career,.join .welfare{
+    margin-top: 50px;
+}
+
+.career div:nth-child(n),.welfare div:nth-child(n){
+    margin: 10px 0;
+}
+.career,.welfare{
+    margin-top: 40px;
+}
+.join h2{
+    border-left: 4px solid #006ec3;
+    font-size: 35px;
+}
+
+.career p{
+    font-size: 16px;
+    text-align: right;
+    margin-bottom: 10px;
+}
+.job i{
+    border-radius: 10px;
+    font-size: 5px;
+    margin-left: 10px;
+    padding: 5px;
+    background-color: #545454;
+    text-align: center;
+    /*line-height: 20px;*/
+    color: #fff;
+}
+.job .job-name{
+    width: 100%;
+    border: 1px solid #d7d7d7;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.job .contant{
+    display: none;
+    font-size: 14px;
+}
+.fl,.fr{
+    float: left;
+}
+.fr{
+    margin: 40px 0 0 10px;
+}
+.welfare .fl{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #d7d7d7;
+}
+.fr dd{
+    margin-top: 20px;
+}
+.tab{
+    cursor: pointer;
+}
+.module{
+    display: none;
+}
+.module:nth-child(3){
+    display: block;
+}
+.tab a:hover{
+    color: #006ec3;
+}
+@media (max-width: 1199px) {
+    .career div:nth-child(n){
+        margin: 5px 0;
+    }
+
+}
+
