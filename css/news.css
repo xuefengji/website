@@ -9,8 +9,12 @@
     text-align: left;
     margin: 20px;
 }
+.news p b{
+    color: red;
+}
 .news h2{
     text-align: center;
+    font-weight: 600;
 }
 .news div{
     padding: 20px;
@@ -18,5 +22,5 @@
 
 .news h2:first-child{
     font-size: 25px;
-    font-weight: 600;
+    font-weight: 700;
 }
